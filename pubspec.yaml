@@ -10,8 +10,18 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  cupertino_icons: ^1.0.8
-  flutter_svg: ^2.0.10+1 # Pastikan versi terbaru
+    
+  cupertino_icons: ^1.0.2
+  flutter_svg:
+  flutter_bloc:
+  hydrated_bloc: ^9.0.0
+  path_provider:
+  firebase_core:
+  firebase_auth:
+  get_it:
+  dartz:
+  cloud_firestore:
+  just_audio:
 
 dev_dependencies:
   flutter_test:
