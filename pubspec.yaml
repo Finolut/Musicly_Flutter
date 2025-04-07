@@ -1,0 +1,50 @@
+name: spotify
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.0.10 # Tambahkan versi spesifik
+  flutter_bloc: ^8.1.5 # Versi stabil terakhir per Maret 2025
+  hydrated_bloc: ^9.0.0
+  path_provider: ^2.1.3 # Tambahkan versi spesifik
+  firebase_core:
+  firebase_auth:
+  get_it:
+  dartz:
+  audioplayers:
+  cloud_firestore:
+  firebase_storage:
+  image_picker:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/fonts/
+    - assets/images/
+    - assets/vectors/
+  fonts:
+    - family: Satoshi
+      fonts:
+        - asset: assets/fonts/Satoshi-Black.ttf
+          weight: 900
+        - asset: assets/fonts/Satoshi-Bold.ttf
+          weight: 600
+        - asset: assets/fonts/Satoshi-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Satoshi-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Satoshi-Light.ttf
+          weight: 300
